@@ -14,9 +14,39 @@ body {
 }
 header {
     grid-area: header;
-    background-color: darkcyan;
+    background-color: white;
     height: 100px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-family: sans-serif;
+   
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 100px;
+    margin-right: 20px;
+}
+.nombre-empresa{
+    display: flex;
+    align-items: center;
+    
+    
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    color: deeppink;
 }
 main {
     grid-area: main;
@@ -25,10 +55,12 @@ main {
 
 }
 #jumbotron {
-    
+    background-image: url(../img/fondo-jumbotron.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
 }
 #blog {
-    background-color: gold;
+    background-color:gray;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
