@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Playfair+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -33,10 +35,10 @@ header {
     height: 100px;
     margin-right: 20px;
 }
-.nombre-empresa{
+.nombre-empresa {
     display: flex;
     align-items: center;
-    
+    font-family: "Oswald";
     
 }
 nav a{
@@ -50,15 +52,34 @@ nav a:hover{
 }
 main {
     grid-area: main;
-    background-color: goldenrod;
+    background-color: rgb(15, 65, 105);
     grid-template-rows: 100% 100% 100%;
 
 }
 #jumbotron {
     background-image: url(../img/fondo-jumbotron.jpg);
     height: 500px;
+    display: flex;
     background-repeat: no-repeat;
+    background-position: 1000px;
+    
 }
+#jumbotron h1{
+    font-family: "Oswald" sans-serif;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+   
+}
+#jumbotron p{
+    font-size: 30px;
+    color: white;
+    font-family: "Oswald" sans-serif;
+    
+    
+}
+
+
 #blog {
     background-color:gray;
     display: grid;
