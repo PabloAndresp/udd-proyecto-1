@@ -10,15 +10,18 @@ body {
                         "main main main"
                         "main main main"
                         "main main main"
+                        "main main main"
+                        
                         "footer footer footer";
                         
-    min-height: 100vh;
+    min-height: 150vh;
     text-align: center;
     font-family: sans-serif;
 }
 header {
     grid-area: header;
-    background-color: white;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(33,134,148,1) 100%);
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -55,7 +58,8 @@ nav a:hover{
 }
 main {
     grid-area: main;
-    background-color: rgb(177, 185, 192);
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(70,252,198,0.8995973389355743) 100%);
     grid-template-rows: 100% 100% 100%;
 
 }
@@ -63,9 +67,10 @@ main {
     background-image: url(../img/lampara1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100px;
+    height: 120px;
     display: flex;
     padding: 20%;
+    
     
     
 }
@@ -95,12 +100,16 @@ form {
     top: 50px;
     display: flex;
     color: white;
+    
    
 }
+
+    
+
 .container{
     width: 100%;
     max-width: 1200px;
-    height: 430px;
+    height: 1000px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -139,12 +148,19 @@ form {
     color: #3498db;
 
 }
+#adicionales{
+    background-image: url(../img/lampara3.jpg);
+    height: 800px;
+    background-position: 100px;
+    background-repeat: no-repeat;
+}
 
     
 
 footer {
     grid-area: footer;
-    background-color: dimgrey;
+    background-color: white;
+    height: 400px;
 }
 
 
