@@ -103,8 +103,12 @@ form {
     color: white;
     font-family: 'Kaushan Script', cursive;
     font-size: 18px;
+    display: flex;
     
    
+}
+.btn {
+    color: red;
 }
 #catalogo h1{
     font-family: 'Kaushan Script', cursive;
@@ -165,8 +169,14 @@ form {
     padding: 10px;
     margin-top: 50px;
     
-}
+    
 
+    
+}
+.adicionales .h1{
+    
+
+}
 
     
 
@@ -217,12 +227,16 @@ footer {
     margin-top: 30px;
     color: white;
     justify-content: space-between;
+    position: relative;
+    left: 300px;
 
 }
 .box-copyright hr{
     border: none;
     height: 1px;
     background-color: white;
+    position: relative;
+    left: 300px;
 }
 
 
