@@ -176,15 +176,27 @@ form {
     padding: 10px;
     margin-top: 50px;
     
+    }
+    
+    @media screen and (max-width: 420px){
+
+    #catalogo {
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+    }
+    #jumbotron {
+        grid-template-areas: 100% 100%
+    }
+    #adicionales{
+        grid-template-areas: 100% 100%;
+    }
+    #form{
+        
+    }
     
     
 
-    
-}
-.adicionales .h1{
-    
 
-}
 
     
 
