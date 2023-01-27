@@ -181,14 +181,23 @@ form {
     @media screen and (max-width: 420px){
 
     #catalogo {
-        grid-template-columns: 1fr 1fr;
+       flex-direction: column;
         padding: 10px;
+    }
+    #container{
+        flex-direction: column;
     }
     #jumbotron {
         grid-template-areas: 100% 100%
     }
     #adicionales{
         grid-template-areas: 100% 100%;
+    }
+    #jumbotron h1{
+        height: 50%;
+    }
+    #jumbotron p{
+        height: 50%;
     }
     }
     
